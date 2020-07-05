@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.d00011616.CondicionesController">
+   <children>
+      <Pane prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="900.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/condiciones.PNG" />
+               </image>
+            </ImageView>
+            <Button layoutX="499.0" layoutY="666.0" mnemonicParsing="false" onAction="#switchToNext" prefHeight="73.0" prefWidth="202.0" style="-fx-background-color: #232960;" text="Continue" textFill="#fcf7f7" />
+         </children>
+      </Pane>
+   </children>
+</VBox>
